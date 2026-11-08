@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Generated experiment files
+*.npy
+*.npz
+*.pt
+*.pth
+*.log
+sift_runs/
+
+# Include the preprocessed data distributed with this release
+!dataset/*/*.npy
+!tasks/*/*.npy
